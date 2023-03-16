@@ -1,8 +1,8 @@
 {
   "name": "ts-search-users",
   "version": "0.1.0",
-  "homepage": "https://konst1984.github.io/search-users",
-  "private": false,
+  "homepage": "https://konst1984.github.io/user_search",
+  "private": true,
   "dependencies": {
     "gh-pages": "^5.0.0",
     "react": "^18.2.0",
