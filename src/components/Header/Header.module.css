@@ -6,7 +6,7 @@
 }
 
 .header {
-  margin: 35px 0;
+  margin-bottom: 35px;
   display: flex;
   justify-content: space-between;
   align-items: center;
