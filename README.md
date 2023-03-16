@@ -1,1 +1,1 @@
-# TypeScript. Проект GitHub user finder.
+# TypeScript. Проект GitHub search user.
