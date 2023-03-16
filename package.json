@@ -1,6 +1,7 @@
 {
   "name": "ts-course-proj-2",
   "version": "0.1.0",
+  "homepage": "https://konst1984.github.io/search-users",
   "private": true,
   "dependencies": {
     "react": "^18.2.0",
