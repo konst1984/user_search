@@ -42,4 +42,5 @@ body[data-theme='dark'] {
 
 a {
   font-family: 'Space Mono', monospace;
+  text-decoration: none;
 }

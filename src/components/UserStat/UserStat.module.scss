@@ -17,12 +17,19 @@
   border-radius: 10px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
+  @media (max-width: 480px){
+    grid-template-columns: 1fr;
+    justify-content: center;
+  }
 }
 
 .info {
   display: flex;
   flex-direction: column;
   gap: 0.5rem;
+  @media (max-width: 480px){
+    align-items: center;
+  }
 
   &Title {
     color: var(--gray-200);

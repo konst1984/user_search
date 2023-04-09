@@ -1,7 +1,7 @@
-import React, { useRef } from "react";
+import React  from "react";
 import { ReactComponent as SearchIcon } from "assets/icon-search.svg";
-import styles from "./Search.module.scss";
 import { Button } from "../Button";
+import styles from "./Search.module.scss";
 
 interface SearchProps {
   hasError: boolean;
@@ -13,6 +13,8 @@ type FormFields = {
 };
 
 export const Search = ({ hasError, onSubmit }: SearchProps) => {
+
+
   const handleSubmit = (e: React.FormEvent<HTMLFormElement & FormFields>) => {
     e.preventDefault();
     const text = e.currentTarget.username.value;

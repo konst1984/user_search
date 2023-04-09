@@ -1,22 +1,62 @@
 :global body[data-theme=light] {
   --header-color: var(--gray-300);
+  --logo-bg: aqua;
+  --logo-color:var(--gray-500);
 }
 :global body[data-theme=dark] {
   --header-color: var(--white);
+  --logo-bg: var(--gray-500);
+  --logo-color:var(--gray-50);
 }
 
 .header {
+  position: relative;
   margin-bottom: 35px;
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-end;
+  gap: 20px;
   align-items: center;
+}
+@media (max-width: 480px) {
+  .header {
+    padding-top: 40px;
+    justify-content: start;
+  }
 }
 
 .logo {
-  color: var(--header-color);
-  font-size: 1.75rem;
-  line-height: 1.5;
-  font-weight: 700;
+  position: absolute;
+  top: -40px;
+  left: 0;
+  height: 70px;
+  display: flex;
+  align-items: flex-end;
+  padding: 0 10px 10px;
+  border-radius: 15px;
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-align: center;
+  background: var(--logo-bg);
+  color: var(--logo-color);
+}
+
+.exit {
+  padding: 5px 15px;
+  border-radius: 10px;
+  border: none;
+  background-color: var(--main-color);
+  transition: all 0.1s ease-in-out;
+  color: var(--white);
+}
+
+.exit:hover,
+.exit:focus-visible {
+  background-color: #1a6ac0;
+  color: var(--white);
+}
+
+.exit:active {
+  box-shadow: rgba(255, 255, 255, 0.4392156863) 0 0 0 8px;
 }
 
 /*# sourceMappingURL=Header.module.css.map */

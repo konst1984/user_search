@@ -4,9 +4,13 @@
   "homepage": "https://konst1984.github.io/user_search",
   "private": true,
   "dependencies": {
+    "@reduxjs/toolkit": "^1.9.3",
+    "firebase": "^9.19.1",
     "gh-pages": "^5.0.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-redux": "^8.0.5",
+    "react-router-dom": "^6.10.0",
     "react-scripts": "5.0.1"
   },
   "scripts": {
@@ -37,6 +41,7 @@
     "@types/node": "16.7.13",
     "@types/react": "18.0.7",
     "@types/react-dom": "18.0.6",
+    "@types/react-router-dom": "^5.3.3",
     "generate-react-cli": "^7.3.0",
     "sass": "^1.54.5",
     "typescript": "4.4.2"

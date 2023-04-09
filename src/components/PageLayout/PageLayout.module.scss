@@ -1,0 +1,28 @@
+:global {
+  body[data-theme='light'] {
+    --link-color: #1a6ac0;
+  }
+
+  body[data-theme='dark'] {
+    --link-color:var(--gray-50);
+  }
+}
+
+.page{
+  margin: auto;
+  display: grid;
+  gap:1rem;
+  place-items: center;
+  text-align: center;
+  padding: 20px 10px;
+  max-width: 300px;
+}
+
+h1{
+  text-transform: capitalize;
+}
+
+.link{
+  color: var(--link-color);
+  font-weight: 600;
+}

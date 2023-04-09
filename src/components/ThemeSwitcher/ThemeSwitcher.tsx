@@ -3,7 +3,7 @@ import { ReactComponent as SunIcon } from "assets/icon-sun.svg";
 import styles from "./ThemeSwitcher.module.scss";
 import { useEffect, useState } from "react";
 
-export const ThemeSwitcher = ({}) => {
+export const ThemeSwitcher = () => {
   const [isDark, setDark] = useState(false);
 
   const themeText = isDark ? "Light" : "Dark";
