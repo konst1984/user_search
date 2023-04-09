@@ -1,7 +1,7 @@
 {
   "name": "ts-search-users",
   "version": "0.1.0",
-  "homepage": "https://konst1984.github.io/register",
+  "homepage": "https://konst1984.github.io/user_search",
   "private": true,
   "dependencies": {
     "@reduxjs/toolkit": "^1.9.3",
