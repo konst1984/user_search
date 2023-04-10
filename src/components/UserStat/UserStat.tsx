@@ -1,4 +1,5 @@
 import { LocalGithubUser } from 'types';
+
 import styles from './UserStat.module.scss';
 
 export interface UserStatProps extends Pick<

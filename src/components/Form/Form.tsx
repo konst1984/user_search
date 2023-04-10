@@ -1,6 +1,8 @@
 import {FC, FormEvent, useState} from 'react';
-import styles from "./Form.module.scss";
+
 import {useAppSelector} from "../../hooks/redux-hooks";
+
+import styles from "./Form.module.scss";
 
 interface IFormProps {
   title: string,

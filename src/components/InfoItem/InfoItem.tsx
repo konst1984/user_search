@@ -1,3 +1,5 @@
+import React from 'react';
+
 import styles from './InfoItem.module.scss';
 
 export interface InfoItemProps {

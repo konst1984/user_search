@@ -1,8 +1,9 @@
 import React from 'react';
 import { getAuth, signInWithEmailAndPassword } from "firebase/auth";
-import {Form} from "../Form";
 import {setError, setUser} from "store/slices/userSlice";
 import {useNavigate} from "react-router-dom";
+
+import {Form} from "../Form";
 import {useAppDispatch} from "../../hooks/redux-hooks";
 
 const Login = () => {

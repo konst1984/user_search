@@ -1,8 +1,9 @@
 import React from 'react';
-import Form from "../Form/Form";
 import { getAuth, createUserWithEmailAndPassword } from "firebase/auth";
-import {setError, setUser} from "../../store/slices/userSlice";
 import {useNavigate} from "react-router-dom";
+
+import Form from "../Form/Form";
+import {setError, setUser} from "../../store/slices/userSlice";
 import {useAppDispatch} from "../../hooks/redux-hooks";
 
 
@@ -24,7 +25,6 @@ const SignUp = () => {
         navigate('/login');
       })
       .catch((error) => {
-        console.log(error)
         dispatch(setError(error))
       });
   }

@@ -1,9 +1,11 @@
 import React from "react";
+
 import {ThemeSwitcher} from "../ThemeSwitcher";
 import {removeUser} from "../../store/slices/userSlice";
 import {useAppDispatch} from "../../hooks/redux-hooks";
-import styles from "./Header.module.scss";
 import {useAuth} from "../../hooks/use-auth";
+
+import styles from "./Header.module.scss";
 
 export const Header = () => {
 

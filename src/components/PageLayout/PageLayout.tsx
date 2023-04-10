@@ -1,6 +1,7 @@
 import React, {FC,ReactNode} from 'react';
-import styles from "./PageLayout.module.scss";
 import {Link} from "react-router-dom";
+
+import styles from "./PageLayout.module.scss";
 
 interface IPageLayoutProps {
   children: ReactNode,

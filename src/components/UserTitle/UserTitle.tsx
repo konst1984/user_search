@@ -1,4 +1,5 @@
 import { LocalGithubUser } from 'types';
+
 import styles from './UserTitle.module.scss';
 
 interface UserTitleProps extends Pick<

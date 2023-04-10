@@ -1,7 +1,8 @@
 import { ReactComponent as MoonIcon } from "assets/icon-moon.svg";
 import { ReactComponent as SunIcon } from "assets/icon-sun.svg";
-import styles from "./ThemeSwitcher.module.scss";
 import { useEffect, useState } from "react";
+
+import styles from "./ThemeSwitcher.module.scss";
 
 export const ThemeSwitcher = () => {
   const [isDark, setDark] = useState(false);

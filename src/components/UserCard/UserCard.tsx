@@ -2,6 +2,7 @@ import { UserInfo } from 'components/UserInfo';
 import { UserStat } from 'components/UserStat';
 import { UserTitle } from 'components/UserTitle';
 import { LocalGithubUser } from 'types';
+
 import styles from './UserCard.module.scss';
 
 interface UserCardProps extends LocalGithubUser { }
